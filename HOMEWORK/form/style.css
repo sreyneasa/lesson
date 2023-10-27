@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background: rgb(205, 205, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 45%;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form-header{
+    background-color: rgb(209, 219, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.form-body{
+    display: flex;
+    flex-direction: column;
+    color: #09a6ee;
+}
+.user-name{
+    display: flex;
+    gap: 10px;
+}
+.user-firstname{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-lastname{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user-passwords{
+    display: flex;
+    gap: 10px;
+}
+.user-password{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-confirm-password{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-more-infos{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+.user-gender{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.user-genders{
+    /* background-color: rgb(240, 96, 13); */
+    /* flex-direction: column; */
+}
+.user-hobby{
+    /* background-color: yellow; */
+}
+.user-financial{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.user-income{
+    width: 50%;
+    /* background-color: blue; */
+}
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-age{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.user-bio{
+    display: flex;
+    flex-direction: column;
+}
+.form-footer{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+button{
+    background: #0e9adb;
+}
